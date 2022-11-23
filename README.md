@@ -13,5 +13,30 @@ This script checks webpages for canary tokens before cloning them. It does this 
 
 Example Use
 -----------
+I copied the HTML source from <href="https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4771"> and hosted it on a python webserver. I went deep into the HTML and embedded the canary token script:
+```
+[...snip...]
+        </script>
+        <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+        <script src="https://js.monitor.azure.com/scripts/c/ms.jsll-3.min.js"></script>
 
+        <script src="/_themes/docs.theme/master/en-us/_themes/global/67a45209.deprecation.js"></script>
+                <script src="/_themes/docs.theme/master/en-us/_themes/scripts/14a90406.index-docs.js"></script>
+</head>
+<script>
+    if (document.domain != "canarytokens.org" && document.domain != "www.canarytokens.org") {
+        var l = location.href;
+        var r = document.referrer;
+        var m = new Image();
+        m.src = "http://canarytokens.com/"+
+                "nanmc0qeniyu1azl8ddhtaxyf.jpg?l="+
+                encodeURI(l) + "&amp;r=" + encodeURI(r);
+    }
+</script>
+<body lang="en-us" dir="ltr">
+        <div class="header-holder has-default-focus">
+                <a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right->
 
+                <div hidden id="cookie-consent-holder"></div>
+[...snip...]
+```
