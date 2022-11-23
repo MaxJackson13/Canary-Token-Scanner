@@ -49,7 +49,7 @@ And running the script returns
   
 <img src="Images/microsoft.png" width=500> 
                            
-If the javascript has been obfuscated, strings may or may not be hex encoded depending on the level of obfuscation.
+If the token has been obfuscated, the strings inside the javascript may or may not be hex encoded depending on the level of obfuscation.
 Here I've obfuscated the javascript so the canary token once inside the HTML appears as
 
 ```
@@ -79,4 +79,7 @@ Here I've obfuscated the javascript so the canary token once inside the HTML app
                 <div hidden id="cookie-consent-holder"></div>
 [...snip...]
 ```
+
+And running the script returns
+
 <img src="Images/microsoft.png" width=500> 
