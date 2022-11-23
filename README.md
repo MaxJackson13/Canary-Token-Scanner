@@ -1,1 +1,1 @@
-# CanaryToken
+# Canary Token
