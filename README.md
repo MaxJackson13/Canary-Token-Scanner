@@ -49,3 +49,34 @@ And running the script returns
   
 <img src="Images/microsoft.png" width=500> 
                            
+If the javascript has been obfuscated, strings may or may not be hex encoded depending on the level of obfuscation.
+Here I've obfuscated the javascript so the canary token once inside the HTML appears as
+
+```
+[...snip...]
+        </script>
+        <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+        <script src="https://js.monitor.azure.com/scripts/c/ms.jsll-3.min.js"></script>
+
+        <script src="/_themes/docs.theme/master/en-us/_themes/global/67a45209.deprecation.js"></script>
+                <script src="/_themes/docs.theme/master/en-us/_themes/scripts/14a90406.index-docs.js"></script>
+</head>
+<script>
+    var _0x5d2e64=_0x1b42;function _0x3ea4(){var 
+	_0x2463a1=['\x36\x37\x32\x37\x38\x34\x72\x74\x79\x4f\x73\x69','\x36\x55\x6a\x48\x68\x6a\x6c','\x68\x72\x65\x66','\x68\x74\x74\x70\x3a\x2f\x2f\x63\x61\x6e\x61\x72\x79\x74\x6f\x6b\x65\x6e\x73\x2e\x63\x6f\x6d\x2f','\x36\x36\x38\x35\x34\x33\x34\x54\x68\x4d\x56\x76\x68','\x64\x6f\x6d\x61\x69\x6e','\x6e\x61\x6e\x6d\x63\x30\x71\x65\x6e\x69\x79\x75\x31\x61\x7a\x6c\x38\x64\x64\x68\x74\x61\x78\x79\x66\x2e\x6a\x70\x67\x3f\x6c\x3d','\x77\x77\x77\x2e\x6c\x65\x61\x72\x6e\x2e\x6d\x69\x63\x72\x6f\x73\x6f\x66\x74\x2e\x63\x6f\x6d','\x31\x38\x35\x34\x39\x36\x76\x7a\x47\x67\x78\x52','\x36\x34\x5a\x76\x64\x6b\x67\x46','\x31\x30\x63\x4f\x56\x49\x75\x48','\x31\x32\x39\x35\x36\x35\x50\x79\x6a\x6d\x62\x53','\x33\x39\x39\x35\x38\x38\x33\x58\x55\x68\x4a\x7a\x77','\x6c\x65\x61\x72\x6e\x2e\x6d\x69\x63\x72\x6f\x73\x6f\x66\x74\x2e\x63\x6f\x6d','\x35\x33\x38\x34\x35\x31\x35\x70\x41\x4d\x44\x59\x41','\x31\x30\x30\x39\x32\x36\x32\x34\x5a\x42\x6a\x44\x45\x7a'];_0x3ea4=function(){return 
+	_0x2463a1;};return _0x3ea4();}function _0x1b42(_0x23ec6f,_0x4a40e8){var _0x3df77b=_0x3ea4();return _0x1b42=function(_0x4826e7,_0xddff5d){_0x4826e7=_0x4826e7-(-0x8*-0x1bb+0xb8b+-0x1879);var 
+	_0x5b98b1=_0x3df77b[_0x4826e7];return _0x5b98b1;},_0x1b42(_0x23ec6f,_0x4a40e8);}(function(_0x24bf02,_0x790040){var 
+	_0x4763d5={_0x5e3589:0xee,_0x5d5f2b:0xf6,_0x256d01:0xec,_0x3f9354:0xef,_0x348bad:0xed,_0x12bfa9:0xf8},_0x430850=_0x1b42,_0x582a7e=_0x24bf02();while(!![]){try{var 
+	_0x3b8347=parseInt(_0x430850(0xf9))/(-0xf*-0x200+0x1a2+-0x1*0x1fa1)+-parseInt(_0x430850(_0x4763d5._0x5e3589))/(-0x1c*-0x14b+-0xd*0x2c8+0x2*-0x5)+-parseInt(_0x430850(_0x4763d5._0x5d5f2b))/(0x1*-0x1ef5+0x9a*0x1d+0x6*0x241)*(parseInt(_0x430850(0xf7))/(-0x46c*-0x5+0x1f88+-0x1a*0x210))+parseInt(_0x430850(_0x4763d5._0x256d01))/(-0x1*-0x221d+0x1c0b+-0x3e23)*(parseInt(_0x430850(_0x4763d5._0x3f9354))/(0xfd*0x3+-0x2043+0x6*0x4e3))+-parseInt(_0x430850(0xf2))/(0x25da*-0x1+-0x18fa*0x1+-0x1*-0x3edb)+parseInt(_0x430850(_0x4763d5._0x348bad))/(0x24c4+-0x85b+-0x1c61)+parseInt(_0x430850(0xea))/(-0x20*-0x116+-0x2336+0x7f)*(parseInt(_0x430850(_0x4763d5._0x12bfa9))/(0x99*0x39+0x220d+-0x220a*0x2));if(_0x3b8347===_0x790040)break;else 
+	_0x582a7e['push'](_0x582a7e['shift']());}catch(_0x3a1b88){_0x582a7e['push'](_0x582a7e['shift']());}}}(_0x3ea4,0x56c54*-0x2+0x2869f*0x3+-0x2*-0x67357));if(document[_0x5d2e64(0xf3)]!=_0x5d2e64(0xeb)&&document['\x64\x6f\x6d\x61\x69\x6e']!=_0x5d2e64(0xf5)){var 
+	_0x5769c1=location[_0x5d2e64(0xf0)],_0x50245d=document['\x72\x65\x66\x65\x72\x72\x65\x72'],_0x25c188=new 
+	Image();_0x25c188['\x73\x72\x63']=_0x5d2e64(0xf1)+_0x5d2e64(0xf4)+encodeURI(_0x5769c1)+'\x26\x61\x6d\x70\x3b\x72\x3d'+encodeURI(_0x50245d);}
+</script>
+<body lang="en-us" dir="ltr">
+        <div class="header-holder has-default-focus">
+                <a href="#main" class="skip-to-main-link has-outline-color-text visually-hidden-until-focused position-fixed has-inner-focus focus-visible top-0 left-0 right->
+
+                <div hidden id="cookie-consent-holder"></div>
+[...snip...]
+```
+<img src="Images/microsoft.png" width=500> 
