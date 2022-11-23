@@ -45,4 +45,7 @@ Accessing the site looks like
                                                       
 <img src="Images/index.png" width=500> 
                            
+And running the script returns
+  
+<img src="Images/microsoft.png" width=500> 
                            
