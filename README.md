@@ -13,7 +13,7 @@ This script checks webpages for canary tokens before cloning them. It does this 
 
 Example Use
 -----------
-I copied the HTML source from <href="https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4771"> and hosted it on a python webserver. I went deep into the HTML and embedded the canary token script:
+I copied the HTML source from <a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4771"> and hosted it on a python webserver. I went deep into the HTML and embedded the canary token script:
 ```
 [...snip...]
         </script>
@@ -40,3 +40,6 @@ I copied the HTML source from <href="https://learn.microsoft.com/en-us/windows/s
                 <div hidden id="cookie-consent-holder"></div>
 [...snip...]
 ```
+                                                      
+Accessing the site looks like
+<img src="Images/index.png">                                         
