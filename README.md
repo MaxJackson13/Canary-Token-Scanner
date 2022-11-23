@@ -82,4 +82,4 @@ Here I've obfuscated the javascript so the canary token once inside the HTML app
 
 And running the script returns
 
-<img src="Images/enc.png" width=500> 
+<img src="Images/enc.png"> 
