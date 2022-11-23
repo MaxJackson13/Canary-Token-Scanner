@@ -42,4 +42,5 @@ I copied the HTML source from <a href="https://learn.microsoft.com/en-us/windows
 ```
                                                       
 Accessing the site looks like
-<img src="Images/index.png">                                         
+                                                      
+<img src="Images/index.png"; width=500>                                         
