@@ -1,3 +1,4 @@
+# When the canary token is obfuscated, the strings the code matches on either remain in cleartext ascii or are hex-encoded but python is smart enough to   # match the strings to the hex
 import requests 
 import argparse
 from bs4 import BeautifulSoup
