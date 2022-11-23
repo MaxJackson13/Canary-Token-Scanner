@@ -9,7 +9,7 @@ For example, one attack vector threat actors use to gain an initial foothold in 
 The malicious link will however point to a hijacked domain (for example 'legitloginportal.com' becomes 'legitlogonportal.com'). 
 So if the enterprise hosting 'legitloginportal.com' embeds a script checking the domain is actually theirs and not a spoofed one, when the webpage is cloned, the token will remain embedded in HTML and trigger when the page is first accessed, alerting them that there may be a phishing campaign against them.
 
-This script checks webpages for canary tokens before cloning them. It does this by parsing the script tags out of the HTML and checking for certain strings which are always present in the token.
+This script checks webpages for canary tokens before cloning them. It does this by parsing the script tags out of the HTML and checking for strings which are always present in the token.
 
 Example Use
 -----------
