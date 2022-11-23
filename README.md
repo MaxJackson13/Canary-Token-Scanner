@@ -24,7 +24,7 @@ I copied the HTML source from <a href="https://learn.microsoft.com/en-us/windows
                 <script src="/_themes/docs.theme/master/en-us/_themes/scripts/14a90406.index-docs.js"></script>
 </head>
 <script>
-    if (document.domain != "canarytokens.org" && document.domain != "www.canarytokens.org") {
+    if (document.domain != "learn.microsoft.com" && document.domain != "www.learn.microsoft.com") {
         var l = location.href;
         var r = document.referrer;
         var m = new Image();
@@ -43,4 +43,6 @@ I copied the HTML source from <a href="https://learn.microsoft.com/en-us/windows
                                                       
 Accessing the site looks like
                                                       
-<img src="Images/index.png"; width=500>                                         
+<img src="Images/index.png" width=500> 
+                           
+                           
