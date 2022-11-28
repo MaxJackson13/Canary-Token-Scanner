@@ -89,4 +89,8 @@ And running the script returns
 Example .docx Use Case 
 ----------------------
 
+Consider the file
 
+<img src="Images/canary.png"> 
+
+interesting, I know.
