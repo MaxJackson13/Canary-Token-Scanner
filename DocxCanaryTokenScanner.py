@@ -1,8 +1,15 @@
 from zipfile import ZipFile
 import xml.etree.ElementTree as et
 import re
+import argparse
 
-zipfile = ZipFile('Downloads/canary.docx')
+parser = argparse.ArgumentParser()
+parser.add_argument('-f', '--file', required=True, help = 'path to .docx file')
+options = parser.parse_args()
+
+file = options.file
+
+zipfile = ZipFile(file)
 files = zipfile.namelist()
 rels = [rel for rel in files if rel.endswith('.rels')]
 
