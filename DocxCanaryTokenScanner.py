@@ -29,4 +29,5 @@ for rel in rels:
             
             print('External link found: ' + target + '\nType: ' + typ.split('/')[-1] + '\n')
 
+print('Possible canary tokens found:\n')
 print('\n'.join(tokens))
