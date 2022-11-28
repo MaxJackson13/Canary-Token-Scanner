@@ -35,7 +35,7 @@ for rel in rels:
             if pattern.search(target):                                                              # check if the target matches for a canary token
                 tokens.append(pattern.search(target).group(0))
             
-            print('External link found: ' + colored(target,'yellow') + '\nType: ' + typ.split('/')[-1] + '\n')
+            print('\nExternal link found: ' + colored(target,'yellow') + '\nType: ' + typ.split('/')[-1])
 
-print(colored('Possible canary tokens found:', 'white', 'on_red') + '\n')
+print(colored('\nPossible canary tokens found:', 'white', 'on_red') + '\n')
 print(colored('\n'.join(tokens), attrs=['bold']))
