@@ -95,4 +95,7 @@ Consider the file
 
 interesting, I know.
 
+Running `DocxCanaryTokenScanner.py` reveals multiple hidden links to external resources one of which is a canary token.
+
+<img src="Images/docxcanary.png"> 
 
