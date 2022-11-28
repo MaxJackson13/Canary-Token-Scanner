@@ -2,6 +2,7 @@ from zipfile import ZipFile
 import xml.etree.ElementTree as et
 import re
 import argparse
+from termcolor import colored
 
 parser = argparse.ArgumentParser()                                                                  
 parser.add_argument('-f', '--file', required=True, help = 'path to .docx file')
@@ -34,7 +35,7 @@ for rel in rels:
             if pattern.search(target):                                                              # check if the target matches for a canary token
                 tokens.append(pattern.search(target).group(0))
             
-            print('External link found: ' + target + '\nType: ' + typ.split('/')[-1] + '\n')
+            print('External link found: ' + colored(target,'yellow') + '\nType: ' + typ.split('/')[-1] + '\n')
 
-print('Possible canary tokens found:\n')
-print('\n'.join(tokens))
+print(colored('Possible canary tokens found:', 'white', 'on_red') + '\n')
+print(colored('\n'.join(tokens), attrs=['bold']))
