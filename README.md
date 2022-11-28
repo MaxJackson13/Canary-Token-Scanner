@@ -89,7 +89,7 @@ And running the script returns
 Example .docx Use Case 
 ----------------------
 
-Consider the file
+Consider the file `canary.docx`
 
 <img src="Images/canary.png"> 
 
