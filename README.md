@@ -11,7 +11,7 @@ So if the enterprise hosting 'legitloginportal.com' embeds a script checking the
 
 `WebCanaryTokenScanner.py` checks webpages for canary tokens. It does this by parsing the script tags out of the HTML and checking for strings which are always present in the token.
 
-`DocxCanaryTokenScanner.py` uses the fact that modern office documents `.docx, .xlsx, pptx, .docm etc.` are a zip compressed archive of XML files containing information describing the structure, layout and content of the document. In particular, `.xml.rels` files in the archive describe relationships within the document and with any external resources. For example a hyperlink in the footer of a `.docx` file will be appear in a file `footer.xml` (for example) and a relationship a `.xml.rels` file will map the footer to the external resource. As such, we can unzip the `.docx` file and parse the `.rels` for links to external resources of interest. 
+`DocxCanaryTokenScanner.py` uses the fact that modern office documents `.docx, .xlsx, pptx, .docm etc.` are a zip compressed archive of XML files containing information describing the structure, layout and content of the document. In particular, `.xml.rels` files in the archive describe relationships within the document and with any external resources. For example a hyperlink in the footer of a `.docx` file will be appear in a file `footer.xml` (for example) and a relationship in a `.xml.rels` file will map the footer to the external resource. As such, we can unzip the `.docx` file and parse the `.rels` for links to external resources of interest. 
 
 Example Web Use Case
 --------------------
@@ -94,3 +94,5 @@ Consider the file
 <img src="Images/canary.png"> 
 
 interesting, I know.
+
+
