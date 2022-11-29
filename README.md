@@ -1,6 +1,8 @@
+
 # Canary Tokens
 
 * [Web Example](#example-web-use-case)
+* [word Document Example]((#example-.docx-use-case)
 
 ## What Are Canary Tokens?
 
