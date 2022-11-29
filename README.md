@@ -1,8 +1,12 @@
 
-# Canary Tokens
-
+<details open>
+<summary> #Summary </summary>
+	
+* [What Are Canary Tokens](#what-are-canary-tokens)
 * [Web Example](#example-web-use-case)
 * [Word Document Example](#example-word-document-use-case)
+
+</details>
 
 ## What Are Canary Tokens?
 
