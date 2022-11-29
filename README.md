@@ -1,6 +1,6 @@
 # Summary
 
-<details>
+<details open>
 <summary></summary>
 	
 * [What Are Canary Tokens](#what-are-canary-tokens)
