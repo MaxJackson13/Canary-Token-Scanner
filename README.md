@@ -1,6 +1,6 @@
 # Canary Tokens
 
-* [Web Example](web-example)
+* [Web Example](#web-example)
 
 ## What Are Canary Tokens?
 
