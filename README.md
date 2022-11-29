@@ -1,6 +1,7 @@
+# Summary
 
-<details open>
-<summary> \#Summary </summary>
+<details>
+<summary></summary>
 	
 * [What Are Canary Tokens](#what-are-canary-tokens)
 * [Web Example](#example-web-use-case)
