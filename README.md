@@ -1,6 +1,6 @@
 # Canary Tokens
 
-* [Web Example](#web-example)
+* [Web Example](#example-web-use-case)
 
 ## What Are Canary Tokens?
 
@@ -15,8 +15,8 @@ So if the enterprise hosting 'legitloginportal.com' embeds a script checking the
 
 `DocxCanaryTokenScanner.py` uses the fact that modern office documents `.docx, .xlsx, pptx, .docm etc.` are a zip compressed archive of XML files containing information describing the structure, layout and content of the document. In particular, `.xml.rels` files in the archive describe relationships within the document and with any external resources. For example a hyperlink in the footer of a `.docx` file will be appear in a file `footer.xml` (for example) and a relationship in a `.xml.rels` file will map the footer to the external resource. As such, we can unzip the `.docx` file and parse the `.rels` for links to external resources of interest. 
 
-Example Web Use Case
---------------------
+## Example Web Use Case
+
 I copied the HTML source from <a href="https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4771">this microsoft learn page</a> and hosted it on a python webserver. I went deep into the HTML and embedded the canary token script:
 ```
 [...snip...]
