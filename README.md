@@ -1,5 +1,7 @@
 # Canary Tokens
 
+* [Web Example](web-example)
+
 ## What Are Canary Tokens?
 
 Canary tokens are a tool for threat hunting/ active cyber defense. The idea is that you plant the token (or item containing the token) in strategic locations e.g. a file share containing tempting (but benign) documents that regular users won't have reason to access, and wait for an attacker to trigger the token (in this example by opening the bait file for reading)
