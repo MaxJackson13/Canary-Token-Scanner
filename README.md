@@ -2,7 +2,7 @@
 # Canary Tokens
 
 * [Web Example](#example-web-use-case)
-* [Word Document Example](#example-\.docx-use-case)
+* [Word Document Example](#example-word-document-use-case)
 
 ## What Are Canary Tokens?
 
@@ -90,7 +90,7 @@ And running the script returns
 
 <img src="Images/enc.png"> 
 
-Example .docx Use Case 
+Example Word Document Use Case 
 ----------------------
 
 Consider the file `canary.docx`
